@@ -10,16 +10,16 @@ Conçu pour [opencode](https://opencode.ai) et des modèles d'entreprise. Foncti
 2. Copiez `profil.exemple/` dans un dépôt privé à vous, et remplissez-le.
 3. Lancez le script d'installation en lui donnant le chemin de votre profil.
 
-Windows (PowerShell) :
-
-```powershell
-.\scripts\install.ps1 -Profil C:\chemin\vers\mon-profil\profil
-```
-
 macOS, Linux :
 
 ```sh
 ./scripts/install.sh --profil ~/chemin/vers/mon-profil/profil
+```
+
+Windows (PowerShell) :
+
+```powershell
+.\scripts\install.ps1 -Profil C:\chemin\vers\mon-profil\profil
 ```
 
 Le script relie les skills à `~/.agents/skills/`, crée le dossier des données (`~/Companion`, ou la valeur de `COMPANION_HOME`) et y relie votre profil. Il ne modifie aucun fichier existant et peut être relancé sans risque. Mettre à jour le companion revient à faire un `git pull` : les skills sont des liens vers le dépôt.
