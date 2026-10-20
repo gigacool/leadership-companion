@@ -34,6 +34,7 @@ Dans opencode, tapez ensuite `/log-du-jour` en fin de journée.
 |---|---|---|
 | `log-du-jour` | énergie, une fierté, le non-fait, en moins d'une minute | disponible |
 | `ma-voix` | rédiger comme vous, sans formules creuses | disponible |
+| `feedback` | apprendre, s'entraîner, préparer un feedback, digérer un feedback reçu | disponible |
 | `recrutement` | fiches pseudonymisées, entretiens, relances | à venir |
 | `engagements` | ce que je dois, ce qu'on me doit | à venir |
 | `tri-du-vendredi` | accepter, déléguer, refuser, planifier | à venir |

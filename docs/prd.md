@@ -1,6 +1,6 @@
 # PRD — MVP
 
-Version 0.2 · octobre 2026 · Pourquoi ce projet existe : [vision.md](vision.md).
+Version 0.3 · octobre 2026 · Pourquoi ce projet existe : [vision.md](vision.md).
 
 ## 1. Utilisateur
 
@@ -75,12 +75,13 @@ Chaque fonctionnalité est un skill, avec un signal qui dira en deux semaines s'
 | `engagements` | à la demande, et au début du tri | Ce que je dois (↑) et ce qu'on me doit (↓), échéances proches ou dépassées, relances rédigées. Lit LeadDeck s'il est là. | aucun statut dû découvert en retard |
 | `tri-du-vendredi` | une fois par semaine, 20 min | Captures, tâches non engagées, demandes collées : accepter, déléguer, refuser ou planifier, avec une raison qui applique `arbitrage.md`. Refus et délégations rédigés. | l'écart prévu / fait se réduit ; au moins un refus ou une délégation explicite |
 | `retro-hebdo` | après le tri | Lit la semaine (LeadDeck, log), pose trois questions, rédige le rapport dans `reports/`, avec une section « Fiertés de la semaine ». | un rapport par semaine en 15 min |
-| `mentor-methode` | à la demande | Le cadre de management utile, appliqué à la situation, terminé par une action. Fiches dans `references/`. Renvoie au juridique pour le droit. | une utilisation par semaine, question réglée |
+| `mentor-methode` | à la demande | Le cadre de management utile, appliqué à la situation, terminé par une action. Fiches dans `references/`. Renvoie au juridique pour le droit. Passe la main à `feedback` pour le feedback. | une utilisation par semaine, question réglée |
+| `feedback` | à la demande | Cinq modes : apprendre un cadre, simuler une conversation puis débriefer, préparer un feedback, digérer un feedback reçu jusqu'à trois actions, relire un message avant envoi. Deux principes : les idées, pas les gens ; tendre avec les gens, dur avec le système. N'écrit aucun fichier. | une utilisation par semaine ; les feedbacks préparés sont donnés |
 | `ma-voix` | chargé par les autres | Règles de rédaction et exemples du profil. | les brouillons partent avec peu de retouches |
 
 ## 6. Hors MVP
 
-Préparation des 1:1 et des ateliers, jalons des chantiers, journal d'accomplissements, rituels de communauté, formulaire de recrutement, lecture des emails et de l'agenda, bilan trimestriel, veille, quiz.
+Préparation des 1:1 et des ateliers, journal des feedbacks donnés (pseudonymisé, durée de conservation fixée), jalons des chantiers, journal d'accomplissements, rituels de communauté, formulaire de recrutement, lecture des emails et de l'agenda, bilan trimestriel, veille, quiz.
 
 ## 7. Questions ouvertes
 

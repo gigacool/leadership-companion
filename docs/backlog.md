@@ -12,6 +12,7 @@ Un incrément est terminé quand son signal est observé, pas quand le skill est
 | 2 | `engagements` + `tri-du-vendredi` | 2 créneaux | Agit sur le flux entrant. |
 | 3 | `retro-hebdo` | 1 créneau | Plus utile une fois le tri et deux semaines de log en place. |
 | 4 | `mentor-methode` | 1 créneau, puis au fil de l'eau | Peu cher, peut être avancé à tout moment. |
+| 4b | `feedback` | 1 créneau | Avancé : besoin immédiat. Détaché de `mentor-methode` parce qu'il a ses propres modes (simulation, préparation, feedback reçu). |
 
 ## Incrément 0 · Socle + log du jour
 
@@ -47,9 +48,17 @@ Un incrément est terminé quand son signal est observé, pas quand le skill est
 ## Incrément 4 · Mentor de méthode
 
 - [ ] Skill `mentor-methode`.
-- [ ] Premières fiches de `references/` : délégation en matriciel, make or buy, feedback, bases juridiques du management, formules Excel utiles.
+- [ ] Premières fiches de `references/` : délégation en matriciel, make or buy, bases juridiques du management, formules Excel utiles.
 - **Signal** : une utilisation par semaine, question réglée sans autre recherche.
+
+## Incrément 4b · Feedback
+
+- [x] Skill `feedback` : modes apprendre, simuler, préparer, reçu, relire.
+- [x] Fiches `references/` : cadres, simulation (personas, débrief), préparation, feedback reçu.
+- [ ] Tester une simulation sur une vraie situation et régler le ton des personas.
+- [ ] Brancher les actions du mode `reçu` sur `engagements` quand il existera.
+- **Signal** : une utilisation par semaine ; les feedbacks préparés sont effectivement donnés.
 
 ## Après le MVP
 
-Préparation des 1:1 et des ateliers · jalons des chantiers · journal d'accomplissements · rituels de communauté et onboarding · formulaire de recrutement · lecture des emails et de l'agenda si l'environnement l'autorise · bilan trimestriel · veille · quiz.
+Préparation des 1:1 et des ateliers · journal des feedbacks donnés · jalons des chantiers · journal d'accomplissements · rituels de communauté et onboarding · formulaire de recrutement · lecture des emails et de l'agenda si l'environnement l'autorise · bilan trimestriel · veille · quiz.
